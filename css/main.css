@@ -1,0 +1,83 @@
+* {
+   /* outline: 1px solid red !important; */ 
+   font-family: 'Lato', sans-serif;
+
+    -webkit-box-sizing: border-box; /* Safari 3 (unprefixed in 5.1+ versions)/Chrome, other WebKits */
+    -moz-box-sizing: border-box;  /* Firefix, other Gecko */
+    -ms-box-sizing: border-box; /* IE?? version?  */
+    -o-box-sizing: border-box; /* Opera? version? */
+    box-sizing: border-box; /* Chrome/Opera/IE 8+ */
+
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+} 
+
+body {
+    color: #4b0082;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 100; 
+}
+
+h2 {
+    color: #32cd32;
+    font-weight: 300;
+    font-size: 18px;
+    margin: .5em 0 0 0;
+}
+
+h3 {
+    color: #ba55d3;
+    margin-top: .5em 0 0 0px;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: .05em;
+}
+
+h4 {    
+    color: #32cd32;
+    margin: .5em 0 0 0; 
+    font-size: 28px;
+    font-weight: 400;
+}
+
+a,
+a:visited {
+    color: #dc143c;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #9400d3;
+}
+
+.logo {
+    width:120px;
+}
+
+.portfolio {
+    max-width: 1000px;
+    width: 100vw;
+}
+
+.row {
+    margin: .5em 0 0 0;
+}
+
+.bar {
+    height: 3px;
+    margin: .25em 0 0 0 ;
+    background-color: #bcbbbb;
+}
+
+.projects {
+    margin: 0 0 .75em 0;
+    justify-content: space-between;
+}
+
+.project {
+    margin: .5em 0 .5em 0;
+}
+
