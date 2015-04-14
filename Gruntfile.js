@@ -62,8 +62,9 @@ module.exports = function(grunt) {
               'find images/*300x200_1x.jpg | xargs -n1 sh -c \'convert $0 -crop 300x200+250+150 $0\''
               */
               // medium images crops
-
+              'find images/*600x400_1x.jpg | xargs -n1 sh -c \'convert $0 -crop 600x400+0+0 $0\'',
               // small images crops.
+              'find images/*300x200_1x.jpg | xargs -n1 sh -c \'convert $0 -crop 300x200+0+0 $0\''
               
             ].join('&&')
         }

@@ -48,7 +48,14 @@
   "directories": {},
   "_resolved": "https://registry.npmjs.org/normalize.css/-/normalize.css-3.0.3.tgz",
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
     "grunt-imagemagick": "^0.1.5",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-responsive-images": "^0.1.6",
     "grunt-shell": "^1.1.2"
   }
 }
